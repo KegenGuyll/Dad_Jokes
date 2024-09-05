@@ -11,5 +11,6 @@ export type Joke = {
 
 export type Author = {
   name: string;
+  total_jokes: int;
   id: string;
 };
